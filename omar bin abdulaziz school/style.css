@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Hind+Siliguri:wght@300;400;500;600;700&family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Alkalami', serif ,;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Alkalami', serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color:#f7f3e8 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.navgi a{
+    color: #f7f3e8;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+
+.navgi a:hover{
+    color:  #8A51AF;
+}
+
+section{
+    padding: 100px 200px;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #343456;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.main h2{
+    color: #f7f3e8;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #E1E9E8;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3{
+    color: #E1E9E8;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+}
+ .main-but{
+    color: #343456;
+    background-color:#E1E9E8 ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875 ;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7 ease;
+ }
+
+ .main-but.hover{
+    background-color: #000;
+    transform: scale(1.1);
+    transition: 20ms;
+ }
+
+ .social-icon a {
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+ }
+
+.tit{
+    display: flex;
+    justify-content: center;
+    color: #E1E9E8;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #343456;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 20ms;
+}
+
+.icon{
+    color: #fff;
+    font-size: 8em;
+    text-align: center;
+} 
+
+.info{
+    text-align: center;
+}
+
+
+.info h3{
+color: #fff;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+}
+
+.prog{
+    background-color: #343456;
+}    
+
+.prog .cont{
+    margin-top: 30px;
+    
+
+}
+
+.prog-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.prog-card:hover{
+    transform: scale(1.1);
+}
+
+.prog-img img{
+    width: 100%;
+}
+
+.prog-card:hover .prog-img{
+    opacity: 0.9;
+}
+
+.prog-info{
+    padding: 1em;
+}
+
+.prog-cat{
+    font-size: 0,8em;
+    color: #000; 
+}
+
+.prog-tit{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-dod{
+    text-decoration: none;
+    color:  #4666FF ;
+}
+
+.more-dod:hover{
+    color: #8A51AF;
+}
+
+.footer{
+    background-color:#000 ;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-tit{
+    font-size: 1,3em;
+    font-weight: 600;
+
+}
+
+.footer-tit span{
+    color:#fff ;
+}
+
+.twitter-tweet{
+    
+}
+
+
+
+@media screen and (max-width:1023px) {
+    header{
+        padding:12px 20px ;
+
+    }
+
+    .navgi a{
+        padding-left: 10px;
+
+    }
+
+    .tit{
+        font-size: 1.8em;
+
+    }
+
+    section{
+        padding: 80px 20px;
+
+    }
+
+    .con h3{
+        font-size: 1,6em;
+
+    }
+
+    .con{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .prog-card{
+        width: 300px;
+        
+    }
+
+}
